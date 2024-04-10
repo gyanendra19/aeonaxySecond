@@ -19,7 +19,7 @@ const Login = () => {
         try {
             const res = await axios({
                 method: 'POST',
-                url: 'http://localhost:4888/api/v1/user',
+                url: 'https://aeonaxysecond-4.onrender.com/api/v1/user',
                 data: {
                     name: data.name,
                     username: data.username,

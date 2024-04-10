@@ -16,7 +16,7 @@ const AddPic = () => {
     console.log(user);
     useEffect(() => {
         (async () => {
-            const res = await axios.patch('http://localhost:4888/api/v1/user/update', formData, {
+            const res = await axios.patch('https://aeonaxysecond-4.onrender.com/api/v1/user/update', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
