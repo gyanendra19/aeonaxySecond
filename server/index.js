@@ -1,6 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv';
-dotenv.config({path: './.env'})
+dotenv.config({path: './config.env'})
 import cors from 'cors'
 import  mongoose  from 'mongoose';
 import userRoute from './routes/userRoute.js';

@@ -1,7 +1,7 @@
 import {Resend} from 'resend'
 import dotenv from 'dotenv';
 import catchAsync from '../utils/catchAsync.js';
-dotenv.config({path: './.env'})
+dotenv.config({path: './config.env'})
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
